@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SocialApp</string> 
+    <string name="app_name">SocialApp</string>
     <string name="question_1">Name 3 Bands.</string>
     <string name="question_2">Name 5 states.</string>
     <string name="question_3">Do 3 Dance moves</string>
@@ -15,4 +15,5 @@
     <string name="question_13">What are 3 NBA teams</string>
     <string name="question_14">Name 3 tv shows</string>
     <string name="question_15">What are 3 cocktails</string>
+    <string name="next_button">Next</string>
 </resources>
