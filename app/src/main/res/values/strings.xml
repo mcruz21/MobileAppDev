@@ -16,4 +16,5 @@
     <string name="question_14">Name 3 tv shows</string>
     <string name="question_15">What are 3 cocktails</string>
     <string name="next_button">Next</string>
+    <string name="start_timer">Timer</string>
 </resources>

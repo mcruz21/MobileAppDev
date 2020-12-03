@@ -16,10 +16,9 @@ import androidx.lifecycle.ViewModelProviders
 
 private const val REQUEST_CODE_CHEAT = 0
 class MainActivity : AppCompatActivity() {
-    private lateinit var trueButton: Button
-    private lateinit var falseButton: Button
-    private lateinit var nextButton: Button//check button
-    private lateinit var prevButton: ImageButton//
+    private lateinit var nextButton: ImageButton
+    //private lateinit var passButton: ImageButton
+    private lateinit var failButton: ImageButton
     private lateinit var questionTextView: TextView
     private var counter =0;
     private var counter1 =0;
@@ -63,7 +62,7 @@ class MainActivity : AppCompatActivity() {
 
 
             override fun onFinish() {
-                countTime.text = "done!"
+                countTime.text = "Times up!"
             }
         }.start()
     }
@@ -111,8 +110,6 @@ class MainActivity : AppCompatActivity() {
 
     }
     private fun updateQuestion1() {
-        trueButton.isEnabled = false
-        falseButton.isEnabled= false
         val questionTextResId = questionViewModel.currentQuestionText
         questionTextView.setText(questionTextResId)
     }
