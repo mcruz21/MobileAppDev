@@ -23,12 +23,21 @@ android:orientation="vertical">
 
 
 </LinearLayout>
-<Button
-    android:id="@+id/next_button"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="bottom|right"
-    android:text="@string/next_button" />
 
+    <ImageButton
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:contentDescription="pass"
+        android:src="@android:drawable/checkbox_on_background" />
+
+    <ImageButton
+        android:id="@+id/failButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:contentDescription="fail"
+        android:src="@android:drawable/ic_delete" />
 
 </FrameLayout>
