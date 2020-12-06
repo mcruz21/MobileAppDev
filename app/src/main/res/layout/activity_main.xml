@@ -4,48 +4,32 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
+
     <TextView
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="@string/start_timer"
-        android:textStyle="bold" />
-    <TextView
-        android:id="@+id/countTime"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/button"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:textColor="@android:color/background_dark"
-        android:textSize="32sp" />
-    <TextView
-        android:id="@+id/question_text_view"
+        android:id="@+id/home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="24dp"
-        tools:text="@string/question_1" />
-
-    <LinearLayout
+        android:text="@string/home_page" />
+    <Button
+        android:id="@+id/playbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:text="@string/play_button"
+        android:textColor="#FA0303"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/rulebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rules"
+        android:gravity="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp" />
 
 
-        <ImageButton
-            android:id="@+id/failButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="fail"
-            android:src="@android:drawable/ic_delete" />
 
-        <ImageButton
-            android:id="@+id/next_button"
-            android:layout_width="60dp"
-            android:layout_height="match_parent"
-            android:contentDescription="pass"
-            android:src="@android:drawable/checkbox_on_background" />
-    </LinearLayout>
+
 </LinearLayout>

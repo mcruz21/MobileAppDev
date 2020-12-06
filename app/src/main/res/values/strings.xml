@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bop It</string>
+    <string name="app_name">5 Second Dash</string>
     <string name="question_1">Name 3 Bands.</string>
     <string name="question_2">Name 5 states.</string>
     <string name="question_3">Do 3 Dance moves</string>
@@ -17,4 +17,7 @@
     <string name="question_15">What are 3 cocktails</string>
     <string name="next_button">Next</string>
     <string name="start_timer">Timer</string>
+    <string name="home_page">5 Second Dash</string>
+    <string name="rules">Rules</string>
+    <string name="play_button">Play Game</string>
 </resources>
